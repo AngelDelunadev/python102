@@ -1,7 +1,7 @@
-number_list = [36,93,55,42,12,24,100]
+number_list = [36,93,55,42,12,24,100,-34]
 total =0 
-biggest_num = 0
-smallest_num = number_list[0]
+biggest_num = float("-inf")
+smallest_num = float("inf")
 even_num = []
 positive_num = []
 for num in number_list:
